@@ -1,0 +1,13 @@
+<div class="font-sans p-6 bg-gray-100">
+    <h1 class="text-2xl font-bold mb-4">Contact Form Inquiry</h1>
+    <p class="text-lg mb-2">You have received the following inquiry:</p>
+
+    <p class="text-lg font-semibold">Name: <span class="font-normal">{{ firstName }} {{ lastName }}</span></p>
+    <p class="text-lg font-semibold">Email: <span class="font-normal">{{ email }}</span></p>
+    <p class="text-lg font-semibold">Phone Number: <span class="font-normal">{{ number }}</span></p>
+
+    <div class="my-4">
+        <p class="text-lg font-semibold mb-2">Message:</p>
+        <p class="bg-white p-4 border border-gray-300 rounded-lg shadow">{{ message }}</p>
+    </div>
+</div>
